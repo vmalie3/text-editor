@@ -32,7 +32,7 @@
     }
   ],
   "name": "Text editor Progressive Web Application",
-  "short_name": "JATE PWA",
+  "short_name": "jate PWA",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
