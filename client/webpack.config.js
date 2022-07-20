@@ -28,13 +28,13 @@ module.exports = () => {
       }),
       new WebpackPwaManifest({
         name: 'Text editor Progressive Web Application',
-        short_name: 'JATE PWA',
+        short_name: 'jate',
         description: 'Just another text editor PWA.',
         fingerprints: false,
         inject: true,
         background_color: '#ffffff',
-        start_url: './',
-        publicPath: './',
+        start_url: '/',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
